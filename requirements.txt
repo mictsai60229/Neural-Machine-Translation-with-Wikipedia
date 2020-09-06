@@ -1,0 +1,3 @@
+spacy
+pytorch_pretrained_bert
+jieba
