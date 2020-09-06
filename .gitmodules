@@ -1,0 +1,3 @@
+[submodule "preprocess/fast_align"]
+	path = preprocess/fast_align
+	url = https://github.com/clab/fast_align
