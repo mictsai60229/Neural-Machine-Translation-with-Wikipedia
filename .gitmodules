@@ -1,3 +1,6 @@
 [submodule "preprocess/fast_align"]
 	path = preprocess/fast_align
 	url = https://github.com/clab/fast_align
+[submodule "services/entity_linking"]
+	path = services/entity_linking
+	url = https://github.com/dalab/end2end_neural_el
