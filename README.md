@@ -11,7 +11,7 @@ In this work, I used:
 
 Tokenize English sentence and Chinese sentecne
 ```
-cd preprocess/tokenizie
+cd preprocess/tokenize
 ```
 
 For English, I used SpaCy.
