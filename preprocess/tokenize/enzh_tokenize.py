@@ -16,6 +16,7 @@ EN_ZH_REGEX = "|".join([r"\w+", r'[\u4e00-\ufaff]', r'[^\s]'])
 TOKENIZIER = re.compile(EN_ZH_REGEX, flags=re.ASCII)
 
 def spacy_tokenizier(sent):
+    sent = re.sub("\s+", " ", sent.strip())
     doc = nlp(sent)
     
     return " ".join(token.text for token in doc)
