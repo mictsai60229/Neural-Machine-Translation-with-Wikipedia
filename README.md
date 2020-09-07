@@ -33,7 +33,9 @@ a strict lock ##down in the australian city of melbourne has been extended by tw
 ```
 Run this command to cocat the sentences.
 ```
-paste -d" ||| " [en_file] [zh_file] > [en-zh_file]
+TAB=$'\t'
+SEPERATOR=$' ||| '
+paste [en_file] [zh_file] | sed "s/${TAB}/${SEPERATOR}/g" > [en-zh_file]
 ```
 
 
